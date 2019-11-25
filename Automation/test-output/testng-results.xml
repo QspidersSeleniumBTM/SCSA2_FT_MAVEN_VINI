@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[I am Reporter msg]]>
+    </line>
+    <line>
+      <![CDATA[I am both reporter and sop msg]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35" started-at="2019-11-19T09:07:31Z" finished-at="2019-11-19T09:07:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35" started-at="2019-11-19T09:07:31Z" finished-at="2019-11-19T09:07:31Z">
+      <class name="testNG.Demo">
+        <test-method status="PASS" signature="run()[pri:0, instance:testNG.Demo@7ac7a4e4]" name="run" duration-ms="10" started-at="2019-11-19T09:07:31Z" finished-at="2019-11-19T09:07:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[I am Reporter msg]]>
+            </line>
+            <line>
+              <![CDATA[I am both reporter and sop msg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- testNG.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
